@@ -1,3 +1,5 @@
+Requires OCaml version 4.08.1
+
 How To Play:
 2048 Game:
 w: swipe up
@@ -49,6 +51,8 @@ Reverse Single Player Mode:
 
 
 --------x-------------x------------x------------x--------------------x---------
+Download 2048.zip
+Open command line in the unzipped folder.
 
 To load a game:
 1) Type "make build" into the terminal.
