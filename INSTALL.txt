@@ -1,0 +1,71 @@
+How To Play:
+2048 Game:
+w: swipe up
+s: swipe down
+d: swipe right
+a: swipe left
+
+Blocks should move corresponding to the user's command.
+If two blocks collide: merge and combine in value if same value,
+else adjacent to each other.
+
+--------x-------------x------------x------------x--------------------x---------
+
+To start game:
+1) Type "make build" into the terminal.
+2) Type "make play" into the terminal.
+3) Choose single player mode by entering single, 2 player mode
+   by entering multi, timed mode by entering timemode and reverse mode
+   by entering reverse
+4) Once the game is over, the player can create an account and
+save his performance. If the player ends the game midway then he can save the
+game state and access it later using the load feature.
+
+
+Single Player Mode:
+1) type d0 for easy mode (randomly generated)
+2) type d1 for hard mode (non-randomly generated)
+3) use w,a,s,d command
+
+Multi Player Mode:
+1) Player 1: use w,a,s,d - goal is to get to 2048
+2) Player 2: type p [r] [c] - where [r] and [c] are integers representing
+   rows and column respectively (must be between [0...3])
+3) Turn alternates
+
+Timed Single Player Mode:
+1) type d0 for easy mode (randomly generated)
+2) type d1 for hard mode (non-randomly generated)
+3) use w,a,s,d command
+4) Player has 4 seconds to make a move on each turn. If time elapses then
+game will end on the next turn
+
+Reverse Single Player Mode:
+1) type d0 for easy mode (randomly generated)
+2) type d1 for hard mode (non-randomly generated)
+3) Player: type p [r] [c] - where [r] and [c] are integers representing
+   rows and column respectively (must be between [0...3]) in
+   order to place a tile
+
+
+--------x-------------x------------x------------x--------------------x---------
+
+To load a game:
+1) Type "make build" into the terminal.
+2) Type "make play" into the terminal.
+3) Type "load" into the terminal.
+4) Enter the name of the json file that contains a previously saved game state.
+5) Choose single player mode by entering single, 2 player mode
+   by entering multi, timed mode by entering timemode and
+   reverse mode by entering reverse
+
+
+--------x-------------x------------x------------x--------------------x---------
+
+To Query Statistics:
+1) Type "make build" into the terminal.
+2) Type "make play" into the terminal.
+3) Type "statistics" into the terminal.
+4) Type the players net id into the terminal.
+5) Type one of the prompted commands in order to view a statistic
+specific to your account. 
