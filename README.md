@@ -2,6 +2,8 @@
 
 Final Team Project for CS 3110: Data Structures and Functional Programming 
 
+(For installation instructions please see INSTALL.txt)
+
 An OCaml implementation of the popular 2048 game, to be played on the command line, along with some additional features (not-exhaustive):
 
 NPC-AI Units - implemented a number of AI modules to determine where to place newly generated tiles corresponding to the difficulty level. Also implemented AI-player modules which choose swiping direction in order to locally maximize score and in-game survivability.
